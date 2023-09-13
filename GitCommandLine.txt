@@ -1,0 +1,78 @@
+1- Configurar o Git:
+
+*Configurar seu nome de usuário:
+git config --global user.name "Seu Nome"
+
+*Configurar seu endereço de email:
+git config --global user.email "seu@email.com"
+
+x-----------------------------------------------------------x
+
+2- Iniciar um novo repositório:
+
+*Iniciar um novo repositório Git em um diretório existente:
+git init
+
+x-----------------------------------------------------------x
+
+3- Clonar um repositório:
+
+*Clonar (baixar uma cópia) de um repositório existente:
+git clone URL-do-Repositório
+
+x-----------------------------------------------------------x
+
+4- Adicionar e confirmar alterações:
+
+*Adicionar todas as alterações ao índice (staging area):
+git add .
+
+*Confirmar as alterações no repositório com uma mensagem de commit:
+git commit -m "Sua mensagem de commit"
+
+x-----------------------------------------------------------x
+
+5- Rastrear o status:
+
+*Verificar o status das alterações no seu repositório:
+git status
+
+x-----------------------------------------------------------x
+
+6- Trabalhar com ramificações:
+
+*Criar uma nova ramificação:
+git branch nome-da-ramificação
+
+*Trocar para uma ramificação específica:
+git checkout nome-da-ramificação
+
+*Criar uma nova ramificação e trocar para ela:
+git checkout -b nome-da-ramificação
+
+x-----------------------------------------------------------x
+
+7- Mesclar ramificações:
+
+*Mesclar uma ramificação em outra (geralmente enquanto estiver na ramificação de destino):
+git merge nome-da-ramificação
+
+x-----------------------------------------------------------x
+
+8- Recuperar e enviar alterações:
+
+*Obter as alterações de um repositório remoto (por exemplo, GitHub):
+git pull origin nome-da-ramificação
+
+*Enviar as alterações locais para um repositório remoto:
+git push origin nome-da-ramificação
+
+x-----------------------------------------------------------x
+
+9- Histórico e logs:
+
+*Exibir o histórico de commits:
+git log
+
+*Exibir um log de commits de forma mais resumida:
+git log --oneline
